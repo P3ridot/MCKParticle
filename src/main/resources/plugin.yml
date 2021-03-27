@@ -1,0 +1,10 @@
+name: MCKParticle
+author: Peridot
+version: 1.4.2
+main: me.peridot.mckparticle.MCKParticle
+website: mlgroup.pl
+api-version: 1.13
+
+commands:
+  particle:
+    aliases: [particles, czasteczki]

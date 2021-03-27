@@ -1,0 +1,190 @@
+config:
+  messages:
+    noperm:
+      title:
+        enabled: true
+        content: "&8» &c&lBrak uprawnien"
+        sub-content: "&8» &7{PERMISSION}"
+        fade-in: 10
+        stay: 40
+        fade-out: 10
+    effect_status:
+      enabled: "&aON"
+      disabled: "&cOFF"
+    effects:
+      ringo:
+        name: '&8» &3Ringo'
+      spiral:
+        name: '&8» &3Spirala'
+      wings:
+        name: '&8» &3Skrzydla'
+  inventories:
+    effects_select:
+      title: "&8» &9Efekty"
+      buttons:
+        ringo:
+          material: PAPER
+          name: "&8» &3Ringo"
+          lore:
+            - "&8» &7Status: &9{STATUS}"
+            - "&8» &7Kliknij &9LPM &7aby wlaczyc/wylaczyc!"
+            - "&8» &7Kliknij &9LPM + SHFT &7aby zmienic kolor!"
+        spiral:
+          material: PAPER
+          name: "&8» &3Spirala"
+          lore:
+            - "&8» &7Status: &9{STATUS}"
+            - "&8» &7Kliknij &9LPM &7aby wlaczyc/wylaczyc!"
+            - "&8» &7Kliknij &9LPM + SHFT &7aby zmienic kolor!"
+        wings:
+          material: PAPER
+          name: "&8» &3Skrzydla"
+          lore:
+            - "&8» &7Status: &9{STATUS}"
+            - "&8» &7Kliknij &9LPM &7aby wlaczyc/wylaczyc!"
+            - "&8» &7Kliknij &9LPM + SHFT &7aby zmienic kolor!"
+        disable_all:
+          material: PAPER
+          name: '&8» &6ALL OFF'
+          lore:
+            - '&7Kliknij tutaj aby wylaczyc wszystkie efekty'
+    color_select:
+      title: "&8» &9Kolory"
+      buttons:
+        color1:
+          material: PAPER
+          name: "&8» &cCzerwony"
+          lore:
+            - "&8» &7Kliknij tutaj aby ustawic kolor efektu na &cczerwony&7!"
+          effect_color:
+            red: 255
+            green: 0
+            blue: 0
+        color2:
+          material: PAPER
+          name: "&8» &2Zielony"
+          lore:
+            - "&8» &7Kliknij tutaj aby ustawic kolor efektu na &2zielony&7!"
+          effect_color:
+            red: 0
+            green: 255
+            blue: 0
+        color3:
+          material: PAPER
+          name: "&8» &bNiebieski"
+          lore:
+            - "&8» &7Kliknij tutaj aby ustawic kolor efektu na &bniebieski&7!"
+          effect_color:
+            red: 0
+            green: 0
+            blue: 255
+        color4:
+          material: PAPER
+          name: "&8» &5Fioletowy"
+          lore:
+            - "&8» &7Kliknij tutaj aby ustawic kolor efektu na &5fioletowy&7!"
+          effect_color:
+            red: 255
+            green: 0
+            blue: 255
+        custom:
+          material: MAP
+          name: '&8» &7Wlasny kolor'
+          lore:
+            - "&8» &7Kliknij tutaj aby wybrac wlasny kolor efektu!"
+    custom_color:
+      title: "&8» &9Wybor koloru"
+      buttons:
+        current_color:
+          material: LEATHER_CHESTPLATE
+          name: "&8» &7Aktualny kolor"
+          lore:
+            - "&8» &cCzerwony: &4{RED}"
+            - "&8» &aZielony: &2{GREEN}"
+            - "&8» &bNiebieski: &3{BLUE}"
+        red:
+          increase:
+            one:
+              material: STAINED_GLASS_PANE
+              durability: 14
+              name: "&7+1"
+            ten:
+              material: STAINED_GLASS_PANE
+              durability: 14
+              name: "&7+10"
+            max:
+              material: STAINED_GLASS_PANE
+              durability: 14
+              name: "&7MAX"
+          decrease:
+            one:
+              material: STAINED_GLASS_PANE
+              durability: 14
+              name: "&7-1"
+            ten:
+              material: STAINED_GLASS_PANE
+              durability: 14
+              name: "&7-10"
+            max:
+              material: STAINED_GLASS_PANE
+              durability: 14
+              name: "&7MIN"
+        green:
+          increase:
+            one:
+              material: STAINED_GLASS_PANE
+              durability: 13
+              name: "&7+1"
+            ten:
+              material: STAINED_GLASS_PANE
+              durability: 13
+              name: "&7+10"
+            max:
+              material: STAINED_GLASS_PANE
+              durability: 13
+              name: "&7MAX"
+          decrease:
+            one:
+              material: STAINED_GLASS_PANE
+              durability: 13
+              name: "&7-1"
+            ten:
+              material: STAINED_GLASS_PANE
+              durability: 13
+              name: "&7-10"
+            max:
+              material: STAINED_GLASS_PANE
+              durability: 13
+              name: "&7MIN"
+        blue:
+          increase:
+            one:
+              material: STAINED_GLASS_PANE
+              durability: 11
+              name: "&7+1"
+            ten:
+              material: STAINED_GLASS_PANE
+              durability: 11
+              name: "&7+10"
+            max:
+              material: STAINED_GLASS_PANE
+              durability: 11
+              name: "&7MAX"
+          decrease:
+            one:
+              material: STAINED_GLASS_PANE
+              durability: 11
+              name: "&7-1"
+            ten:
+              material: STAINED_GLASS_PANE
+              durability: 11
+              name: "&7-10"
+            max:
+              material: STAINED_GLASS_PANE
+              durability: 11
+              name: "&7MIN"
+
+  default_color:
+    red: 255
+    green: 255
+    blue: 255
